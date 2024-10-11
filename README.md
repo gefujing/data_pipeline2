@@ -59,6 +59,7 @@ conda env create -f data_pipeline2_env.yml
 conda activate lamindb
 pip install -r data_pipeline2_requirements.txt
 ```
+__NOTE:__ AWS servers do not require additional environment configuration.
 
 ## Usage
 After setting up the environment, run the following command from within the `workdir` directory to execute the data processing pipeline:
